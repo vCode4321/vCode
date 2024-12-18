@@ -841,6 +841,29 @@ progress {
         max-width: 1194px
     }
 }
+@media (min-width:1800px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1400px
+    }
+}
+
+@media (min-width:2560px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1600px
+    }
+}
 
 :root {
     --bs-breakpoint-xs: 0;
