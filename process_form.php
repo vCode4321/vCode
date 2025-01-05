@@ -58,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Sender and recipient
         $mail->setFrom($config['mail_from_address'], $config['mail_from_name']);
-        $mail->addAddress('ahtishamkhan785@gmail.com'); // Recipient email address
+        $mail->addAddress('vcodetechnologiesusa@gmail.com'); // Recipient email address
 
         // Email content
         $mail->isHTML(false); // Set email format to plain text
